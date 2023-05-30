@@ -7,5 +7,5 @@ def getHours():
 
 def main():
     hours = getHours()
-    
+
 main()

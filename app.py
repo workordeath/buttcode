@@ -4,6 +4,6 @@ def setMinutes():
     if user_input % 5 is not 0:
         raise Exception("Invalid time.")
 
-def main()
+def main():
     setMinutes()
 main()

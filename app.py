@@ -63,6 +63,8 @@ def outputFile():
     print(f"GROSS EARNINGS ${totalEarnings:.2f}")
     print(f"NET EARNINGS ${totalEarnings - (totalEarnings * 0.153):.2f}")
     print(f"TAXES DUE ${totalEarnings * 0.153:.2f}")
+    
+# TEST
 
 def main():
     while True:

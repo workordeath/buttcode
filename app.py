@@ -1,5 +1,6 @@
 from datetime import date
 import sys
+
 def displayMenu():
     print("main menu")
     print("1. Input Payroll Data")
@@ -63,7 +64,7 @@ def outputFile():
     print(f"GROSS EARNINGS ${totalEarnings:.2f}")
     print(f"NET EARNINGS ${totalEarnings - (totalEarnings * 0.153):.2f}")
     print(f"TAXES DUE ${totalEarnings * 0.153:.2f}")
-    
+
 def main():
     while True:
         displayMenu()

@@ -4,6 +4,7 @@ def getHours():
 
     # User input handling
     try:
+    #asnkdasjkdk
         user_input = int(input(">> "))
 
         if user_input % 5 != 0 or user_input <= 0:
@@ -12,6 +13,8 @@ def getHours():
         return user_input / 60
     except Exception:
         print("Invalid time.")
+    ##adnkaskdnkasdnk
+    #anskdamnksdkasnd
 
 def main():
     hours = getHours()

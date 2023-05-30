@@ -1,7 +1,8 @@
 
 def getHours():
     print("Enter the amount of minutes you worked.")
-    
+
+    # User input handling
     try:
         user_input = int(input(">> "))
 
